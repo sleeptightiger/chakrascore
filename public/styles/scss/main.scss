@@ -178,6 +178,18 @@ body {
 
 }
 
+.agree {
+  order: -1;
+}
+
+.neither {
+  order: 0;
+}
+
+.disagree {
+  order: 1;
+}
+
 .note {
   opacity: 0;
   padding-top: 5px;
