@@ -1,0 +1,199 @@
+@import 'normalize';
+@import 'reset';
+
+$splash-bg: #FEFDFC;
+$sacral: #FF5416;
+$root: #E8112D;
+$solar: #F99B0C;
+$heart: #BAD80A;
+$throat: #35C4AF;
+$third: #1F8596;
+$crown: #58355E;
+$splash-font: 'Poiret One', cursive;
+$q-font: 'Montserrat', sans-serif;
+
+body {
+  position: relative;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.splash-position {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: 70%;
+}
+
+.txt {
+  font-size: 200%;
+  color: #FFF;
+  text-shadow: 0px 2px 2px rgba(0,0,0,.3);
+  line-height: 37px;
+  font-family: $q-font;
+  font-weight: 400;
+}
+
+.splash-txt {
+  font-family: $splash-font;
+  font-size: 550%;
+  color: #000;
+  text-shadow: 0px 2px 2px rgba(0,0,0,.3);
+  line-height: 90px;
+}
+
+.splash {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: $splash-bg;
+  z-index: 20;
+}
+
+.sacral {
+  background-color: $sacral;
+}
+
+.root {
+  background-color: $root;
+}
+
+.solar {
+  background-color: $solar;
+}
+
+.heart {
+  background-color: $heart;
+}
+
+.throat {
+  background-color: $throat;
+}
+
+.third {
+  background-color: $third;
+}
+
+.crown {
+  background-color: $crown;
+}
+
+
+.q1 {
+  z-index: 19;
+}
+
+.q2 {
+  z-index: 18;
+}
+
+.q3 {
+  z-index: 17;
+}
+
+.q4 {
+  z-index: 16;
+}
+
+.q5 {
+  z-index: 15;
+}
+
+.q6 {
+  z-index: 14;
+}
+
+.q7 {
+  z-index: 13;
+}
+
+.q8 {
+  z-index: 12;
+}
+
+.q9 {
+  z-index: 11;
+}
+
+.q10 {
+  z-index: 10;
+}
+
+.q11 {
+  z-index: 9;
+}
+
+.q12 {
+  z-index: 8;
+}
+
+.q13 {
+  z-index: 7;
+}
+
+.q14 {
+  z-index: 6;
+}
+
+
+
+.splash .note {
+  height: 0;
+  width: 0;
+}
+
+.icons {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  width: 80%;
+  height: 50px;
+  transform: translate(-50%, 0%);
+  // margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+
+  transition: all ease-out .3s;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  align-self: center;
+  font-size: 40px;
+  display: inline-block;
+  transition: all ease-out .3s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.note {
+  opacity: 0;
+  padding-top: 5px;
+  font-size: 5px;
+  font-family: $q-font;
+  text-shadow: 0px 2px 2px rgba(0,0,0,.3);
+  transition: all ease-out .3s;
+}
+
+
+.card {
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}

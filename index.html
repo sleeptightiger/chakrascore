@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,700|Poiret+One" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles/css/main.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<title>ChakraScore</title>
+	</head>
+	<body>
+		<div class="splash card"
+			ontouchstart="handleTouchStart(event, splash)"
+			ontouchmove="handleTouchMove(event, splash)"
+			ontouchend="handleTouchEnd(event, splash)">
+			<div class="note">
+
+			</div>
+			<span class="splash-position splash-txt">Discover Yourself</span>
+		</div>
+		<div class="q1 card sacral"
+			ontouchstart="handleTouchStart(event, q1)"
+			ontouchmove="handleTouchMove(event, q1)"
+			ontouchend="handleTouchEnd(event, q1)">
+			<span class="center txt">Do you feel that you are in touch with your emotional side?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q2 card root"
+			ontouchstart="handleTouchStart(event, q2)"
+			ontouchmove="handleTouchMove(event, q2)"
+			ontouchend="handleTouchEnd(event, q2)">
+			<span class="center txt">Are you easily stressed?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q3 card solar"
+			ontouchstart="handleTouchStart(event, q3)"
+			ontouchmove="handleTouchMove(event, q3)"
+			ontouchend="handleTouchEnd(event, q3)">
+			<span class="center txt">Do you have a lot of self-confidence?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q4 card third"
+			ontouchstart="handleTouchStart(event, q4)"
+			ontouchmove="handleTouchMove(event, q4)"
+			ontouchend="handleTouchEnd(event, q4)">
+			<span class="center txt">Would you consider yourself very creaive?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q5 card throat"
+			ontouchstart="handleTouchStart(event, q5)"
+			ontouchmove="handleTouchMove(event, q5)"
+			ontouchend="handleTouchEnd(event, q5)">
+			<span class="center txt">Do you feel that you have trouble expressing yourself out loud?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q6 card solar"
+			ontouchstart="handleTouchStart(event, q6)"
+			ontouchmove="handleTouchMove(event, q6)"
+			ontouchend="handleTouchEnd(event, q6)">
+			<span class="center txt">Are you a spontaneous person, as in you would rather not plan to do anything ahead of time?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q7 card sacral"
+			ontouchstart="handleTouchStart(event, q7)"
+			ontouchmove="handleTouchMove(event, q7)"
+			ontouchend="handleTouchEnd(event, q7)">
+			<span class="center txt">How good are you at multi-tasking?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q8 card heart"
+			ontouchstart="handleTouchStart(event, q8)"
+			ontouchmove="handleTouchMove(event, q8)"
+			ontouchend="handleTouchEnd(event, q8)">
+			<span class="center txt">You put all of your effort into a relationships?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q9 card throat"
+			ontouchstart="handleTouchStart(event, q9)"
+			ontouchmove="handleTouchMove(event, q9)"
+			ontouchend="handleTouchEnd(event, q9)">
+			<span class="center txt">Do you do your best to get along with everyone?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q10 card heart"
+			ontouchstart="handleTouchStart(event, q10)"
+			ontouchmove="handleTouchMove(event, q10)"
+			ontouchend="handleTouchEnd(event, q10)">
+			<span class="center txt">Are you an empathetic person?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q11 card root"
+			ontouchstart="handleTouchStart(event, q11)"
+			ontouchmove="handleTouchMove(event, q11)"
+			ontouchend="handleTouchEnd(event, q11)">
+			<span class="center txt">Do you have a place where you know you belong?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q12 card crown"
+			ontouchstart="handleTouchStart(event, q12)"
+			ontouchmove="handleTouchMove(event, q12)"
+			ontouchend="handleTouchEnd(event, q12)">
+			<span class="center txt">Do you strongly trust in a ‘greater design’?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q13 card third"
+			ontouchstart="handleTouchStart(event, q13)"
+			ontouchmove="handleTouchMove(event, q13)"
+			ontouchend="handleTouchEnd(event, q13)">
+			<span class="center txt">Do you make time for self-reflection?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+		<div class="q14 card crown"
+			ontouchstart="handleTouchStart(event, q14)"
+			ontouchmove="handleTouchMove(event, q14)"
+			ontouchend="handleTouchEnd(event, q14)">
+			<span class="center txt">Do you try and find connections between different aspects of your life?</span>
+			<div class="icons">
+
+				<span class="disagree icon"><i class="far fa-circle"></i><span class="note">DISAGREE</span></span>
+				<span class="neither icon"><i class="fas fa-adjust"></i><span class="note">NEITHER</span></span>
+				<span class="agree icon"><i class="fas fa-circle"></i><span class="note">AGREE</span></span>
+			</div>
+		</div>
+
+
+
+		<script type="text/javascript" src="js/swipe.js"></script>
+	</body>
+</html>
