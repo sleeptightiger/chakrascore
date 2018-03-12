@@ -455,9 +455,6 @@ table {
 body {
   position: relative; }
 
-.q, .tuning, .splash {
-  display: none; }
-
 .center {
   position: absolute;
   top: 30%;
